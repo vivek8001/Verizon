@@ -34,8 +34,6 @@ public class BookServiceImpl implements BookService {
 		books.clear();
 
 	}
-	/*
-	 * @Override public Book addBook() { return books.add(Book); }
-	 */
+	
 
 }
