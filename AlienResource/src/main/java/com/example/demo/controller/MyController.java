@@ -39,15 +39,6 @@ public class MyController {
 		bookservice.deleteBooks();
 		return "All books are deleted. ";
 	}
-	/*
-	 * @PostMapping("/enterDetails") public List<Book> addBook(){ return
-	 * bookservice.
-	 * 
-	 * String insert(@RequestBody Book b) { books.add(new
-	 * Book(b.getId(),b.getAuthor(),b.getName()));
-	 * 
-	 * for(Book b1:books) { System.out.println(b1.getId()+ "  "+b1.getAuthor()); }
-	 * return "data insreted"; }
-	 */
+	
 
 }
